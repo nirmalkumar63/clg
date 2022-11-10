@@ -1,11 +1,14 @@
 
 import './App.css';
-
+import LoginForm from './pages/LoginForm';
+import RegisterForm from './pages/RegisterForm';
+import Router from "./Router/Router"
 function App() {
   return (
     <div >
-      <h1> College Management</h1>
+      <Router/>
       
+     
     </div>
   );
 }
