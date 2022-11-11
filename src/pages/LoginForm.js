@@ -70,7 +70,7 @@ function LoginForm() {
           </div>
           <p>{formErrors.username}</p>
           <div className="field">
-            <label>Email</label>
+            <label> Email </label>
             <input
               type="text"
               name="email"
